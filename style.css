@@ -1,0 +1,53 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Other stuff */
+body {
+    /* Linear gradient stuff */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(white, grey);
+    /* Remaining css */
+    text-align: center;
+}
+
+.Text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#Title {
+    font-size: 150px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #4c6250;
+}
+
+#Settings {
+    /* text-align: center; */
+    /* align-items: center; */
+    align-self: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.Hidden {
+    display: none;
+}
